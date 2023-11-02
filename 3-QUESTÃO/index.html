@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-QUESTÃO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Transação</h1>
+    <div id="geral">
+            <form>
+                <label for="contra">TIPO DE CONTRA:</label><br><br>
+                <select name="contra" id="contra">
+                    <option value=""></option>
+                    <option value="poupança">Poupança</option>
+                    <option value="corrente">Corrente</option>
+                </select>
+            </form>
+            <p>SENHA:</p>
+            <input type="password" id="senha" placeholder="Informe sua senha">
+            <p>DESCRIÇÃO:</p>
+            <textarea name="descrição" id="descrição" cols="50" rows="70" placeholder="Mensagem..."></textarea>
+            <p>VALOR:</p>
+            <input type="text" id="valor" placeholder="Informe o valor"><br><br>
+            <button id="button">Adicionar</button>
+
+        </div>
+        <div >
+            <table>
+                <tr>
+                    <th id="tipo_contra"></th>
+                    <th id="valor_transação"></th>
+                    <th id="total_soma"></th>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

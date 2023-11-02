@@ -1,0 +1,29 @@
+#geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#evento, #hora{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
+#button{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+li{
+    font-size: 25px;
+}

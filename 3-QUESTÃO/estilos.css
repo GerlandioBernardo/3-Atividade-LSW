@@ -1,0 +1,18 @@
+#contra, #senha, #descrição, #valor{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+
+}
+#button{
+    width: 208px;
+    height: 40px;
+    font-size: 20px;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+::placeholder{
+    font-size: 20px;
+}
